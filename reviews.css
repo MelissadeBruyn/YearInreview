@@ -5,7 +5,7 @@ body {
   ul {
       position: fixed;
       width: 100%;
-      z-index: 2;
+      z-index: 4;
       list-style-type: none;
       margin: 0;
       padding: 0;
@@ -42,8 +42,42 @@ body {
     img {
       filter: brightness(45%);
       position: fixed;
-      z-index:-1;
-      width: 100%;
+      z-index:-3;
+      width: 120%;
+      -webkit-box-shadow: 0px 5px 10px -2px rgba(0,0,0,0.45);
+      -moz-box-shadow: 0px 5px 10px -2px rgba(0,0,0,0.45);
+      box-shadow: 0px 5px 10px -2px rgba(0,0,0,0.45);
     }
     
-  
+  .square {
+  height: 2000px;
+  width: 1000px;
+  background-color: rgb(247, 247, 247);
+	margin-top: 200px;
+  display: center;
+  margin-top: 200px;
+	margin-bottom: 200px;
+	position: absolute;
+	border-radius: 130px;
+	font-family: "Courier New", Times, serif;
+	color: grey;
+	text-align: left;
+	font-size: 30px;
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+}
+
+.text-block {
+  position: absolute;
+  color: white;
+  padding-left: 600px;
+  padding-right: 70px;
+  padding-top: 150px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

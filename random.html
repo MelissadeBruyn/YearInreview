@@ -4,28 +4,67 @@
 
     <head>
         
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="random.css">
 
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+
+        <link rel="stylesheet" href="random.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
         <title>Year In Review</title>
 
     </head>
 
     <body>
-    
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="reviews.html">Year Ratings</a></li>
-                <li><a class="active" a href="random.html">Random</a></li>
-            </ul> 
+              <li><a href="index.html">Home</a></li>
+              <li><a href="reviews.html">Year Ratings</a></li>
+              <li><a class="active" href="random.html">Random</a></li>
+            </ul>
 
-        <p>Year In <br> Review</p>
-        
-        <img src= "https://designyoutrust.com/wp-content/uploads/2016/05/1-31.jpg" alt="Food">
+            <section class="company-heading intro-type" id="parallax-one">
+                    <div class="container">
+                      <div class="row product-title-info">
+                        <div class="col-md-12">
+                          <p>RANDOM</p>
+                          <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="parallax" id="parallax-cta" style="background-image:url(https://cdna.artstation.com/p/assets/images/images/004/187/762/large/alena-aenami-7p-m-1k.jpg?1481159743);"></div>
+                  </section>
+                  <div class="main">
+                    <section id="section2">
+                      <div class="container jumbo">
+                        <div class="jumbotron">
+                          <h2>Let Big Data Change the Game</h2>
+                          <p>WebCorpCo is all about making sure your marketing stack is in alignment with your company as well as the customers you serve. There is no 'one size fits all' approach to marketing. Every business is unique, customers are unique, and your marketing should be as well.</p>
+                          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+
+                  <script>
+                  $(document).ready(function(){
+                    $("a").on('click', function(event) {
+                      if (this.hash !== "") {
+                        event.preventDefault();
+                        var hash = this.hash;
+                        $('html, body').animate({
+                          scrollTop: $(hash).offset().top
+                        }, 800, function(){
+                          window.location.hash = hash;
+                        });
+                      } 
+                    });
+                  });
+                </script>
 
     </body>
 
