@@ -39,7 +39,7 @@ li a:hover:not(.active) {
   background-color: rgb(214, 214, 214);
 }
 
-img {
+.img1 {
   filter: brightness(45%);
   position: fixed;
   z-index:-3;
@@ -71,13 +71,111 @@ img {
   transform: translate(-50%, -50%);
 }
 
+#text0 {
+  z-index: 3;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 150px;
+  font-size: 60px;
+  color: rgb(51, 51, 51);
+  padding-right: 20px;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
 #text {
   z-index: 3;
   position: absolute;
-  margin-right: -50%;
-  margin-top: 100px;
+  margin-right: 20%;
+  margin-left: 50%;
+  margin-top: 140px;
   font-size: 20px;
   padding-right: 20px;
   
 }
 
+#text2 {
+  z-index: 3;
+  position: absolute;
+  margin-right: 20%;
+  margin-left: 50%;
+  margin-top: 340px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+#text3 {
+  z-index: 3;
+  position: absolute;
+  margin-right: 20%;
+  margin-left: 50%;
+  margin-top: 540px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+#text4 {
+  z-index: 3;
+  position: absolute;
+  margin-right: 20%;
+  margin-left: 50%;
+  margin-top: 740px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+#text5 {
+  z-index: 3;
+  position: absolute;
+  margin-right: 20%;
+  margin-left: 50%;
+  margin-top: 940px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.i1 { 
+  object-fit: cover;
+  z-index: 3;
+  position:  absolute;
+  margin-left: 25%;
+  margin-top: 140px;
+}
+.i2 { 
+  object-fit: cover;
+  z-index: 3;
+  position:  absolute;
+  margin-left: 25%;
+  margin-top: 340px;
+}
+
+.i3 { 
+  object-fit: cover;
+  z-index: 3;
+  position:  absolute;
+  margin-left: 25%;
+  margin-top: 540px;
+}
+
+.i4 { 
+  object-fit: cover;
+  z-index: 3;
+  position:  absolute;
+  margin-left: 25%;
+  margin-top: 740px;
+}
+.i5 { 
+  object-fit: cover;
+  z-index: 3;
+  position:  absolute;
+  margin-left: 25%;
+  margin-top: 940px;
+}
+
+#move { 
+margin-top: 150px;
+z-index: 3;
+position: absolute;
+}
