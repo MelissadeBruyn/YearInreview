@@ -50,13 +50,13 @@ li a:hover:not(.active) {
 }
   
 .square {
-  height: 2000px;
+  height: 1800px;
   width: 1000px;
   background-color: rgb(247, 247, 247);
   margin-top: 200px;
   display: center;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 160px;
   position: absolute;
   border-radius: 130px;
   font-family: "Courier New", Times, serif;
@@ -90,10 +90,9 @@ li a:hover:not(.active) {
   position: absolute;
   margin-right: 20%;
   margin-left: 50%;
-  margin-top: 140px;
+  margin-top: 240px;
   font-size: 20px;
   padding-right: 20px;
-  
 }
 
 #text2 {
@@ -101,7 +100,7 @@ li a:hover:not(.active) {
   position: absolute;
   margin-right: 20%;
   margin-left: 50%;
-  margin-top: 340px;
+  margin-top: 440px;
   font-size: 20px;
   padding-right: 20px;
 }
@@ -111,7 +110,7 @@ li a:hover:not(.active) {
   position: absolute;
   margin-right: 20%;
   margin-left: 50%;
-  margin-top: 540px;
+  margin-top: 640px;
   font-size: 20px;
   padding-right: 20px;
 }
@@ -121,17 +120,7 @@ li a:hover:not(.active) {
   position: absolute;
   margin-right: 20%;
   margin-left: 50%;
-  margin-top: 740px;
-  font-size: 20px;
-  padding-right: 20px;
-}
-
-#text5 {
-  z-index: 3;
-  position: absolute;
-  margin-right: 20%;
-  margin-left: 50%;
-  margin-top: 940px;
+  margin-top: 840px;
   font-size: 20px;
   padding-right: 20px;
 }
@@ -141,14 +130,14 @@ li a:hover:not(.active) {
   z-index: 3;
   position:  absolute;
   margin-left: 25%;
-  margin-top: 140px;
+  margin-top: 240px;
 }
 .i2 { 
   object-fit: cover;
   z-index: 3;
   position:  absolute;
   margin-left: 25%;
-  margin-top: 340px;
+  margin-top: 440px;
 }
 
 .i3 { 
@@ -156,7 +145,7 @@ li a:hover:not(.active) {
   z-index: 3;
   position:  absolute;
   margin-left: 25%;
-  margin-top: 540px;
+  margin-top: 640px;
 }
 
 .i4 { 
@@ -164,18 +153,5 @@ li a:hover:not(.active) {
   z-index: 3;
   position:  absolute;
   margin-left: 25%;
-  margin-top: 740px;
-}
-.i5 { 
-  object-fit: cover;
-  z-index: 3;
-  position:  absolute;
-  margin-left: 25%;
-  margin-top: 940px;
-}
-
-#move { 
-margin-top: 150px;
-z-index: 3;
-position: absolute;
+  margin-top: 840px;
 }
